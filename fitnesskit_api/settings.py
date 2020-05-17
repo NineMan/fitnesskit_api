@@ -121,3 +121,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+REST_FRAMEWORK = {
+    'TIME_FORMAT': "%H.%M",
+    # 'TIME_INPUT_FORMATS': "%H.%M"
+}
+
