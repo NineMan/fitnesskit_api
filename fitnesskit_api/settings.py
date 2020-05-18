@@ -124,6 +124,5 @@ STATIC_URL = '/static/'
 
 REST_FRAMEWORK = {
     'TIME_FORMAT': "%H.%M",
-    # 'TIME_INPUT_FORMATS': "%H.%M"
+    'TIME_INPUT_FORMATS': ["%H.%M"]
 }
-
