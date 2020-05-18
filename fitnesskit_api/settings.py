@@ -126,3 +126,4 @@ REST_FRAMEWORK = {
     'TIME_FORMAT': "%H.%M",
     'TIME_INPUT_FORMATS': ["%H.%M"]
 }
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
